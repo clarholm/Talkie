@@ -39,9 +39,7 @@ uint8_t const  spINSPECTOR[]     PROGMEM = {0x29,0xEB,0x5E,0xD9,0x32,0x27,0x9D,0
 uint8_t const  spINTRUDER[]      PROGMEM = {0xAB,0x1D,0xA9,0x88,0xCC,0x37,0x9F,0x66,0xBA,0x16,0x31,0xFE,0xBC,0xEB,0x55,0x0F,0xCF,0x98,0x69,0x55,0x47,0xD3,0x0C,0xF2,0xA4,0x45,0xAB,0x6D,0x6D,0x43,0x57,0x34,0xF8,0x78,0x34,0x45,0xA0,0x08,0xE5,0x2E,0x22,0x1B,0x14,0xD0,0x4A,0x46,0x06,0x34,0xD0,0xD2,0xEC,0x39,0xCC,0xCC,0xDD,0xCC,0x56,0x9E,0x95,0x58,0x14,0xB5,0xDB,0x45,0xAB,0xAB,0x27,0x4B,0xF6,0x74,0xA2,0x62,0xCE,0xB2,0x3C,0x66,0xB7,0x7A,0x2C,0x0B,0x61,0x95,0xBB,0x96,0x96,0x4C,0xD9,0x35,0xDB,0x98,0xAB,0x29,0xA2,0xB3,0x7C,0x73,0xED,0x47,0xBB,0x4A,0x2E,0xD0,0x71,0x3F,0xF9,0x8B,0x5F,0xF8,0x4A,0x0F,0xF4,0xD1,0x3C,0xFF,0x0F};
 uint8_t const  spCOMPUTER[]          PROGMEM ={0x0A,0x08,0x79,0xC4,0x02,0xA7,0x8A,0xCE,0xD3,0x03,0xDA,0xEE,0xAA,0xD7,0xA5,0xB6,0x59,0x4A,0x85,0xD2,0xD8,0x16,0x8F,0x02,0x60,0x21,0x32,0x00,0x29,0x2B,0x5A,0xE0,0x24,0x25,0x85,0x82,0x5B,0x9F,0x9D,0xAC,0x34,0x38,0x4B,0xB1,0xC8,0x33,0x33,0x07,0x74,0x1D,0x91,0x2A,0xDF,0x34,0xA9,0xAD,0xED,0xAC,0x66,0x3B,0xFB,0xD6,0xBB,0xA6,0xAA,0x1B,0xE9,0xC3,0x60,0x3B,0xFB,0x14,0xA5,0x76,0x83,0xAD,0xE4,0xE9,0xE6,0xDA,0x0C,0x21,0x5A,0x92,0x7A,0xAA,0x07};
 uint8_t const  spGAMES[]             PROGMEM ={0xAA,0x15,0x24,0x2A,0xD6,0xE4,0xB6,0xB6,0x79,0x13,0xB1,0x5C,0xB2,0xF3,0x93,0x97,0xA4,0x66,0x3E,0x75,0x77,0x3E,0xF2,0x52,0x8D,0xCD,0x26,0xF6,0xCC,0x7B,0xDE,0x8A,0x9A,0x14,0x2D,0xBA,0xD2,0xAC,0x66,0xDD,0xEB,0xDE,0x8E,0xB6,0x7A,0x47,0x0D,0xAF,0x95,0x3A,0x6D,0xB1,0x9A,0xDA,0x8E,0xED,0x6C,0x67,0x3A,0x6E,0xA5,0x46,0x42,0xB1,0xED,0x74,0x27,0x3A,0x62,0x32,0xC2,0x23,0x76,0xEA,0x7F,0x22,0x36,0x11,0xF5,0x06,0x38,0x1C,0xC8,0x00,0xDF,0x29,0x39,0xE0,0x7B,0x56,0x03,0x7C,0xCD,0xCA,0x80,0xCC,0x83,0x1E,0x00,0x00};
-//bad
 uint8_t const  spHAND[]              PROGMEM ={0x08,0x10,0xD6,0x13,0x01,0xC6,0x50,0x49,0x40,0x03,0x25,0x4E,0xCD,0x53,0x63,0x1C,0xDF,0xF4,0xA6,0x27,0x4D,0xCD,0x87,0x32,0x93,0xDE,0xEC,0xE6,0xB7,0xB8,0xD5,0x6E,0x56,0xE3,0xAB,0x87,0x79,0xC5,0xE9,0x4D,0x6F,0x4C,0xC3,0xA2,0x55,0xC9,0x44,0xB2,0x8D,0x6E,0x74,0xC3,0x5A,0x66,0xAC,0x5A,0xC3,0x61,0xE8,0x52,0x14,0x51,0xF0,0x2A,0xB6,0xD5,0xCD,0x03,0x00,0x00};
-//bad
 uint8_t const  spTHINGS[]            PROGMEM ={0x00,0x08,0x60,0xBA,0x93,0x01,0xDA,0x99,0x33,0x40,0x5B,0x77,0x03,0x78,0xE1,0xAE,0x00,0x27,0x8D,0x2D,0x70,0xE2,0x18,0x4D,0x8D,0x3A,0xF6,0x89,0x4B,0x76,0x76,0xE9,0x5A,0x37,0xBE,0xF1,0xCA,0xCA,0x0E,0x56,0xCE,0x46,0xB7,0xBE,0xED,0x18,0xCA,0x31,0x56,0xA9,0x9A,0x61,0x34,0x16,0x7B,0x25,0xA9,0xD8,0xC9,0x4E,0x66,0x8A,0x1E,0xA6,0xBC,0x18,0xDB,0xC9,0x4D,0xD1,0xC3,0x94,0x27,0x5C,0x37,0x55,0xA1,0x90,0xB1,0x52,0xEC,0x64,0x26,0x2D,0xD2,0x5C,0x25,0x8D,0x00,0x7E,0x0D,0x93,0x80,0x04,0x38,0xC0,0x81,0x07,0x00,0x00};
 int nounsSize=20;
 
@@ -142,7 +140,7 @@ uint8_t const* questions[2];
 uint8_t const* responses[6];
 
 long randNumber;
-int testStepFunction=0;
+
 
 
 void setup() {
@@ -237,30 +235,13 @@ Serial.begin(9600);
 
 //Initiate random number functions
 randomSeed(analogRead(0));
-pinMode(6, INPUT_PULLUP);
 Serial.println("Setup ready");
-wordPaceing(spREADY_TO_START);
-
-
+voice.say(spREADY_TO_START);
+  
 }
 void loop() {
-
-
-if(digitalRead(6) == LOW){
-  Serial.println("in step");
-  testStepFunction=testStepFunction+1;
-   Serial.print("i: ");
-    Serial.println(testStepFunction);
-  if (testStepFunction > nounsSize){
-       Serial.print("i before reset: ");
-    Serial.println(testStepFunction);
-  testStepFunction=0;
-  }
-}
-
-wordPaceing(nouns[testStepFunction]);  
-
-/*Serial.println("Before any speech");
+voice.setVol(10);
+Serial.println("Before any speech");
 sayRandomSentanceIam(getRandomNumber(7));
 delay(200);
 Serial.println("After random I sentance");
@@ -270,7 +251,6 @@ sayRandomQuestion(getRandomNumber(3));
 delay(200);
 sayRandomResponse(getRandomNumber(3));
 delay(200);
-*/
 
   
 }
@@ -295,9 +275,7 @@ sayRandomResponse(getRandomNumber(3));
 }
 
 void wordPaceing(uint8_t const* wordToSay){
-voice.setVol(10);
 voice.say(wordToSay);
-delay(100);
 
 
 }
@@ -343,49 +321,49 @@ void sayRandomSentanceIam(int randomlyGeneratedCaseNumber){
   switch (randomlyGeneratedCaseNumber) {
     case 0:    // I am [Adjective]
       sayIam();
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
       break;
     case 1:    //I am [Adjective][conjunction][determinant][noun]
       sayIam();
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(conjunctions[getRandomNumber(conjunctionsSize)]);
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(conjunctions[getRandomNumber(conjunctionsSize)]);
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
     case 2:    // I am [Adjective][conjunction][Adjective]
       sayIam();
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(conjunctions[getRandomNumber(conjunctionsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(conjunctions[getRandomNumber(conjunctionsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
       break;
     case 3:   // I am [Determinant][noun]
       sayIam();
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
     case 4:   //I am [Determinant][Preposition][noun]
       sayIam();
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(prepositions[getRandomNumber(prepositionsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(prepositions[getRandomNumber(prepositionsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
     case 5:   // I am [Determinant][Preposition][adjective][noun]
       sayIam();
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(prepositions[getRandomNumber(prepositionsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(prepositions[getRandomNumber(prepositionsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);
       break;
     case 6:   // I am [pronoun][noun]
       sayIam();
-      wordPaceing(pronouns[getRandomNumber(pronounsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(pronouns[getRandomNumber(pronounsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;          
     case 7:   //  I am [Pronomen][Adjektiv][Substantiv]
       sayIam();
-      wordPaceing(pronouns[getRandomNumber(pronounsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(pronouns[getRandomNumber(pronounsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;  
   }
 }
@@ -394,30 +372,30 @@ void sayRandomSentanceI(int randomlyGeneratedCaseNumber){
   switch (randomlyGeneratedCaseNumber) {
     case 0:    // I [Verb][Determinant][Substantiv]
       sayI();
-      wordPaceing(verbs[getRandomNumber(verbsSize)]);
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);       break;
+      voice.say(verbs[getRandomNumber(verbsSize)]);
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);       break;
     case 1:    // I [Verb][Determinant][Adjektiv][Substantiv]
       sayI();
-      wordPaceing(verbs[getRandomNumber(verbsSize)]);
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(verbs[getRandomNumber(verbsSize)]);
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
     case 2:    // I [Verb][Adverb][Determinant][Substantiv]
       sayI();
-      wordPaceing(verbs[getRandomNumber(verbsSize)]);
-      wordPaceing(adverbs[getRandomNumber(adverbsSize)]);      
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(verbs[getRandomNumber(verbsSize)]);
+      voice.say(adverbs[getRandomNumber(adverbsSize)]);      
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
     case 3:   // I [Verb][Adverb][Determinant][Adjektiv][Substantiv]
       sayI();
-      wordPaceing(verbs[getRandomNumber(verbsSize)]);
-      wordPaceing(adverbs[getRandomNumber(adverbsSize)]);      
-      wordPaceing(determinants[getRandomNumber(determinantsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(verbs[getRandomNumber(verbsSize)]);
+      voice.say(adverbs[getRandomNumber(adverbsSize)]);      
+      voice.say(determinants[getRandomNumber(determinantsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
   }
 }
@@ -425,16 +403,16 @@ void sayRandomSentanceI(int randomlyGeneratedCaseNumber){
 void sayRandomQuestion(int randomlyGeneratedCaseNumber){
   switch (randomlyGeneratedCaseNumber) {
     case 0:    //[Question]
-      wordPaceing(questions[getRandomNumber(questionsSize)]); 
+      voice.say(questions[getRandomNumber(questionsSize)]); 
       break;
     case 1:    //[Question][noun]
-      wordPaceing(questions[getRandomNumber(questionsSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);
+      voice.say(questions[getRandomNumber(questionsSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);
       break;
     case 2:   //[Question][Adjektiv][Substantiv]
-      wordPaceing(questions[getRandomNumber(questionsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(questions[getRandomNumber(questionsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
   }
 }
@@ -443,35 +421,35 @@ void sayRandomResponse(int randomlyGeneratedCaseNumber){
 
   switch (randomlyGeneratedCaseNumber) {
     case 0:    // [Response]
-      wordPaceing(responses[getRandomNumber(responsesSize)]); 
+      voice.say(responses[getRandomNumber(responsesSize)]); 
       break;
     case 1:    //[Response][konjunktion][Response]
-      wordPaceing(responses[getRandomNumber(responsesSize)]); 
-      wordPaceing(conjunctions[getRandomNumber(conjunctionsSize)]);
+      voice.say(responses[getRandomNumber(responsesSize)]); 
+      voice.say(conjunctions[getRandomNumber(conjunctionsSize)]);
       break;
     case 2:   //[Adjektiv][Substantiv]
-      wordPaceing(questions[getRandomNumber(questionsSize)]);
-      wordPaceing(adjectives[getRandomNumber(adjectivesSize)]);
-      wordPaceing(nouns[getRandomNumber(nounsSize)]);  
+      voice.say(questions[getRandomNumber(questionsSize)]);
+      voice.say(adjectives[getRandomNumber(adjectivesSize)]);
+      voice.say(nouns[getRandomNumber(nounsSize)]);  
       break;
   }
 }
 
 void sayIam(){
-  wordPaceing(spI);
-  wordPaceing(spAM);
+  voice.say(spI);
+  voice.say(spAM);
   }
 void sayI(){
-  wordPaceing(spI);
+  voice.say(spI);
   }
 
 void sayYouAre(){
-  wordPaceing(spYOU);
-  wordPaceing(spARE);
+  voice.say(spYOU);
+  voice.say(spARE);
   }
 
 void sayYou(){
-  wordPaceing(spYOU);
+  voice.say(spYOU);
   }
 
 
