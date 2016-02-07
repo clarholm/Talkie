@@ -231,21 +231,26 @@ responses[4]=spNO;
 responses[5]=spI_WIN;
 
 
-
+Serial.begin(9600);
 
 //Initiate random number functions
 randomSeed(analogRead(0));
-
+Serial.println("Setup ready");
 voice.say(spREADY_TO_START);
   
 }
 void loop() {
-
+voice.setVol(10);
+Serial.println("Before any speech");
 sayRandomSentanceIam(getRandomNumber(7));
+delay(200);
+Serial.println("After random I sentance");
 sayRandomSentanceI(getRandomNumber(5));
+delay(200);
 sayRandomQuestion(getRandomNumber(3));
+delay(200);
 sayRandomResponse(getRandomNumber(3));
-
+delay(200);
 
   
 }
